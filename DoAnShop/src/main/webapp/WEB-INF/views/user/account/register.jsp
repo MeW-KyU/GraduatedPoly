@@ -99,6 +99,11 @@
 				<div class="flex-c p-b-112">
 					<a href="<c:url value="/login" />" class="txt2 hov1"> Sign In </a>
 				</div>
+
+				<center>
+					<h3 style="color: red">${statusSU }</h3>
+				</center>
+
 			</form:form>
 		</div>
 	</div>

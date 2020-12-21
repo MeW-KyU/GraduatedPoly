@@ -33,10 +33,10 @@
 
 	<section class="ftco-menu">
 		<div class="col-lg-8 ftco-animate p-md-5">
-			<h3>The catalog of our dishes:</h3>
+			<h3>Try another category:</h3>
 			<div class="nav ftco-animate nav-pills" id="v-pills-tab"
 				role="tablist" aria-orientation="vertical">
-				<a href="<c:url value="/Menu" />" class="nav-link">All</a>
+				<a href="<c:url value="/Menu" />" class="nav-link active">All</a>
 				<c:forEach var="item" items="${categories }">
 					<a href="<c:url value="/categories/${item.ID_Categories}" />"
 						class="nav-link">${item.name_Categories}</a>

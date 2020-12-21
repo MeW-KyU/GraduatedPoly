@@ -38,13 +38,13 @@ public class CustomerController extends BaseController {
 		try {
 			int count = accountService.AddAccount(customer);
 			if (count > 0) {
-				_mvShare.addObject("status", "Sign Up Success!");
+				_mvShare.addObject("statusSU", "Sign up success!");
 			} else {
-				_mvShare.addObject("status", "Registration Failed!");
+				_mvShare.addObject("statusSU", "Registration failed!");
 			}
 			_mvShare.setViewName("user/account/register");
 		} catch (Exception e) {
-			_mvShare.addObject("status", "Registration Failed!");
+			_mvShare.addObject("statusSU", "Username available!");
 		}
 		return _mvShare;
 	}
@@ -72,10 +72,10 @@ public class CustomerController extends BaseController {
 				_mvShare.setViewName("redirect:home");
 				session.setAttribute("LoginInfo", customer);
 			} else {
-				_mvShare.addObject("statusLogin", "Login failed!");
+				_mvShare.addObject("statusLogin", "Password is incorrect!");
 			}
 		} catch (Exception e) {
-			_mvShare.addObject("statusLogin", "Login failed!");
+			_mvShare.addObject("statusLogin", "Username does not exist!");
 		}
 		return _mvShare;
 	}

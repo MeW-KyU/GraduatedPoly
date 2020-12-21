@@ -103,6 +103,8 @@ public class CartController extends BaseController {
 			billsService.AddBillsDetail(carts);
 		}
 		session.removeAttribute("Cart");
+		session.removeAttribute("TotalQuantyCart");
+		session.removeAttribute("TotalPriceCart");
 		return "redirect:ListCart";
 	}
 

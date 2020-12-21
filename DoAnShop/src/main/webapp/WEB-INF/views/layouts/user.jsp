@@ -60,6 +60,9 @@
 <link rel="stylesheet"
 	href="<c:url value="/assets/user/css/listcart.css" />">
 
+<link rel="shortcut icon" type="image/png"
+	href="<c:url value="/assets/user/images/pizza.png" />">
+
 <style>
 .badge {
 	background-color: #e62e00;

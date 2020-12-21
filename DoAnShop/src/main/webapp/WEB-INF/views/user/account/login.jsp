@@ -73,8 +73,14 @@
 				</div>
 
 				<div class="flex-c p-b-112">
-					<a href="<c:url value="/sign-up" />" class="txt2 hov1"> Sign Up </a>
+					<a href="<c:url value="/sign-up" />" class="txt2 hov1"> Sign Up
+					</a>
 				</div>
+
+				<center>
+					<h3 style="color: red">${statusLogin }</h3>
+				</center>
+
 			</form:form>
 		</div>
 	</div>

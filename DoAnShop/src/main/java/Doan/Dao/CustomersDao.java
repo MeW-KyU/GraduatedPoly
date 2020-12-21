@@ -4,8 +4,6 @@ import org.springframework.stereotype.Repository;
 
 import Doan.Entity.Customers;
 import Doan.Entity.MapperCustomer;
-import Doan.Entity.MapperProducts;
-import Doan.Entity.Products;
 
 @Repository
 public class CustomersDao extends BaseDao {
