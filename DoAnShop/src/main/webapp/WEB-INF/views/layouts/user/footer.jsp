@@ -67,9 +67,9 @@
 					<script>
 						document.write(new Date().getFullYear());
 					</script>
-					All rights reserved | This template is made with <i
+					All rights reserved | This website is made with <i
 						class="icon-heart" aria-hidden="true"></i> by <a
-						href="https://colorlib.com" target="_blank">Team5</a>
+						href="https://github.com/MeW-KyU/GraduatedPoly" target="_blank">The Clowns</a>
 				</p>
 			</div>
 		</div>
