@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Account" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Categories" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Customer" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="DetailInvoice" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="DetailInvoiceExport" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="DetailInvoiceImport" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Invoice" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="InvoiceExport" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="InvoiceImport" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Menus" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Merchandies" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Product" />
+	<table-filter match-catalog="Doan"
+		match-schema="dbo" match-name="Staff" />
+</hibernate-reverse-engineering>
