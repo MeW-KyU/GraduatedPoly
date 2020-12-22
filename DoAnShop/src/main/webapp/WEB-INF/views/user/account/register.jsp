@@ -89,7 +89,7 @@
 
 
 				<div class="container-login100-form-btn">
-					<button type="submit" class="login100-form-btn">Sign In</button>
+					<button type="submit" class="login100-form-btn">Sign Up</button>
 				</div>
 
 				<div class="text-center p-t-57 p-b-20">
