@@ -10,6 +10,7 @@ public class Bills {
 	private double total;
 	private int quanty;
 	private String note;
+	private String status;
 
 	public Bills() {
 		super();
@@ -87,6 +88,12 @@ public class Bills {
 		this.note = note;
 	}
 
-	
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
 
 }

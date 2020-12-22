@@ -11,10 +11,10 @@ public class BillsDao extends BaseDao {
 	public int AddBills(Bills bill) {
 		StringBuffer sql = new StringBuffer();
 		sql.append(
-				"INSERT INTO Invoice(Date_Sale, Customer_Code, Name_Mask, Phone_Mask, Email_Mask, Address_Mask, Amount, Total, Note) VALUES("
+				"INSERT INTO Invoice(Date_Sale, Customer_Code, Name_Mask, Phone_Mask, Email_Mask, Address_Mask, Amount, Total, Note, Status) VALUES("
 						+ "getdate()" + ", '"+bill.getUsername()+"', '" + bill.getName() + "', '" + bill.getPhone() + "', '" + bill.getEmail()
 						+ "', '" + bill.getAddress() + "', '" + bill.getQuanty() + "', '" + bill.getTotal() + "', '"
-						+ bill.getNote() + "');");
+						+ bill.getNote() + "', '2');");
 		int insert = _jdbcTemplate.update(sql.toString());
 		return insert;
 	};
