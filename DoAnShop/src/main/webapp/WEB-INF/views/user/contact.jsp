@@ -96,5 +96,4 @@
 		</div>
 	</section>
 
-	<div id="map"></div>
 </body>

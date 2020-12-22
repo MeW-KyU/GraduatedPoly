@@ -69,7 +69,7 @@
 					</script>
 					All rights reserved | This website is made with <i
 						class="icon-heart" aria-hidden="true"></i> by <a
-						href="https://github.com/MeW-KyU/GraduatedPoly" target="_blank">The Clowns</a>
+						href="https://github.com/MeW-KyU/GraduatedPoly" target="_blank">TheClowns</a>
 				</p>
 			</div>
 		</div>
