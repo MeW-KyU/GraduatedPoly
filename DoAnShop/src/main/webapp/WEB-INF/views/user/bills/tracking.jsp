@@ -52,13 +52,13 @@
 										<td class="column5">${item.total}</td>
 										<c:choose>
 											<c:when test="${item.status=='1'}">
-												<td class="column6" style="color: orange">Canceled</td>
+												<td class="column6" style="color: red">Canceled</td>
 											</c:when>
 											<c:when test="${item.status=='2'}">
-												<td class="column6" style="color: green">Handing</td>
+												<td class="column6" style="color: orange">Handing</td>
 											</c:when>
 											<c:otherwise>
-												<td class="column6" style="color: red">Delivered</td>
+												<td class="column6" style="color: green">Delivered</td>
 											</c:otherwise>
 										</c:choose>
 									</tr>
